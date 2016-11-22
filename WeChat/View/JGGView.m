@@ -66,7 +66,6 @@
             UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc]initWithTarget:jggView action:@selector(tapImageAction:)];
             [iv addGestureRecognizer:singleTap];
         }
-    
 }
 #pragma mark
 #pragma mark 配置图片的宽高
